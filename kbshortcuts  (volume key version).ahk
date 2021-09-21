@@ -8,8 +8,8 @@ notCarat() {
 	return (A_CaretX = and A_CaretY = )
 }
 
->^SPACE::
+>^SPACE::Media_Play_Pause
 >^Left::Media_Prev
 >^Right::Media_Next
->^Up::Media_Play_Pause
->^Down::Media_Stop
+>^Up::Volume_Up
+>^Down::Volume_Down
